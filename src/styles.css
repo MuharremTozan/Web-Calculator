@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header-div {
+    background-color: #333;
+    color: #fff;
+    
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+}
+
+/* FOOTER */
