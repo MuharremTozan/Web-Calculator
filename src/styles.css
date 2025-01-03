@@ -8,19 +8,13 @@
 
 /* HEADER */
 .header-div {
-    background-color: #333;
+    background-color: #303030;
     color: #fff;
     
 }
 
-.header-list {
-    display: flex;
-    list-style: none;
-    padding: 1%;
+.header-calculator {
+    height: 40px;
+    margin: 5px;
 }
-
-.header-list-item {
-    margin-right: 1%;
-}
-
 /* FOOTER */

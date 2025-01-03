@@ -8,5 +8,20 @@ import { Component } from '@angular/core';
   styleUrl: './calculator.component.css'
 })
 export class CalculatorComponent {
+  resultButton:boolean = false;
+  resultScreenList:[] = [];
+  tempNumbers:number[] = [];
 
+  calculate(resultButton: boolean){
+    this.resultButton = resultButton;
+    resultButton = false;
+    while(resultButton == false){
+
+    }
+    resultButton = true;
+  }
+
+  addNumber(number:number){
+    this.tempNumbers.push(number);
+  }
 }
